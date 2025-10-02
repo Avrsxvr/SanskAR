@@ -1,0 +1,1939 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.15f1 (faa32412f6c9) revision 16425764'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7863 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2025-09-29T13:05:52Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.1.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/sujal gupta/AR apps/ARCult
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51353
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/sujal gupta/AR apps/ARCult
+C:/Users/sujal gupta/AR apps/ARCult
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6052]  Target information:
+
+Player connection [6052]  * "[IP] 10.247.188.23 [Port] 0 [Flags] 2 [Guid] 3218335291 [EditorId] 3218335291 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EVKFBI6R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6052] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6052] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 42.78 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.96 ms.
+Initialize engine version: 6000.1.15f1 (faa32412f6c9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sujal gupta/AR apps/ARCult/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        Intel(R) UHD Graphics (ID=0x46b3)
+    Vendor:          Intel
+    VRAM:            3931 MB
+    App VRAM Budget: 3538 MB
+    Driver:          31.0.101.5186
+    Unified Memory Architecture
+    Cache Coherent UMA
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Registered in 0.667729 seconds.
+- Loaded All Assemblies, in  1.802 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 725 ms
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.617 seconds
+Domain Reload Profiling: 3414ms
+	BeginReloadAssembly (490ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (122ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (787ms)
+	LoadAllAssembliesAndSetupDomain (366ms)
+		LoadAssemblies (484ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (353ms)
+			TypeCache.Refresh (349ms)
+				TypeCache.ScanAssembly (316ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1618ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1514ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (986ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (276ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.428 seconds
+Refreshing native plugins compatible for Editor in 23.50 ms, found 5 plugins.
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 17.21 ms, found 5 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Interaction.Toolkit.Analytics.XRIAnalytics..cctor () [0x00000] in .\Library\PackageCache\com.unity.xr.interaction.toolkit@42ef3600567b\Editor\Analytics\XRIAnalytics.cs:32 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
+Assertion failure. Values are not equal.
+Expected: Failure == Success
+  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <0004165128be453398769144f78ad292>:0 
+  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
+  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
+SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
+System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
+System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
+
+(Filename: ./Library/PackageCache/com.unity.cloud.draco@4b657c9cdeaa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.079 seconds
+Domain Reload Profiling: 4452ms
+	BeginReloadAssembly (418ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (1812ms)
+		LoadAssemblies (1364ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (707ms)
+			TypeCache.Refresh (424ms)
+				TypeCache.ScanAssembly (384ms)
+			BuildScriptInfoCaches (217ms)
+			ResolveRequiredComponents (55ms)
+	FinalizeReload (2080ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1533ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (317ms)
+			ProcessInitializeOnLoadAttributes (961ms)
+			ProcessInitializeOnLoadMethodAttributes (198ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 28.42 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7778 unused Assets / (7.6 MB). Loaded Objects now: 8508.
+Memory consumption went from 154.5 MB to 146.9 MB.
+Total: 22.187700 ms (FindLiveObjects: 1.900200 ms CreateObjectMapping: 2.029100 ms MarkObjects: 10.178900 ms  DeleteObjects: 8.076100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 86927.795455 seconds.
+  path: Assets/SanskAR/Scripts/QuizData.asset
+  artifactKey: Guid(30e9abbdee24b4642935fbc8ed779258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SanskAR/Scripts/QuizData.asset using Guid(30e9abbdee24b4642935fbc8ed779258) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0918dc1e92239c135721d4cac153d409') in 0.0333933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 11.508 seconds
+Refreshing native plugins compatible for Editor in 12.36 ms, found 5 plugins.
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Interaction.Toolkit.Analytics.XRIAnalytics..cctor () [0x00000] in .\Library\PackageCache\com.unity.xr.interaction.toolkit@42ef3600567b\Editor\Analytics\XRIAnalytics.cs:32 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
+Assertion failure. Values are not equal.
+Expected: Failure == Success
+  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <0004165128be453398769144f78ad292>:0 
+  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
+  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
+SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
+System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
+System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
+
+(Filename: ./Library/PackageCache/com.unity.cloud.draco@4b657c9cdeaa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.779 seconds
+Domain Reload Profiling: 13292ms
+	BeginReloadAssembly (7357ms)
+		ExecutionOrderSort (4ms)
+		DisableScriptedObjects (274ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (7ms)
+		CreateAndSetChildDomain (1736ms)
+	RebuildCommonClasses (117ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (120ms)
+	LoadAllAssembliesAndSetupDomain (3879ms)
+		LoadAssemblies (3411ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1014ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (15ms)
+			BuildScriptInfoCaches (747ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (1781ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (285ms)
+			ProcessInitializeOnLoadAttributes (712ms)
+			ProcessInitializeOnLoadMethodAttributes (280ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (49ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 10.46 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7776 unused Assets / (9.3 MB). Loaded Objects now: 8527.
+Memory consumption went from 161.1 MB to 151.8 MB.
+Total: 23.330500 ms (FindLiveObjects: 2.294900 ms CreateObjectMapping: 1.327400 ms MarkObjects: 8.949600 ms  DeleteObjects: 10.755800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 415.340632 seconds.
+  path: Assets/SanskAR/Scripts/QuizData 2.asset
+  artifactKey: Guid(f35d775b1dcd69d4da65fbf4443a04fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SanskAR/Scripts/QuizData 2.asset using Guid(f35d775b1dcd69d4da65fbf4443a04fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fad60189c7ee9a930a8e8e90e2d4243f') in 0.0228871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.632021 seconds.
+  path: Assets/SanskAR/Scripts/Question.cs
+  artifactKey: Guid(2099aef48cbcf7748b6d4ab4951af5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SanskAR/Scripts/Question.cs using Guid(2099aef48cbcf7748b6d4ab4951af5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c7ac04bbcb28db513d81af4fd30bd22') in 0.0022429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.569 seconds
+Refreshing native plugins compatible for Editor in 26.18 ms, found 5 plugins.
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Interaction.Toolkit.Analytics.XRIAnalytics..cctor () [0x00000] in .\Library\PackageCache\com.unity.xr.interaction.toolkit@42ef3600567b\Editor\Analytics\XRIAnalytics.cs:32 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
+Assertion failure. Values are not equal.
+Expected: Failure == Success
+  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <0004165128be453398769144f78ad292>:0 
+  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
+  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
+SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
+System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
+System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
+
+(Filename: ./Library/PackageCache/com.unity.cloud.draco@4b657c9cdeaa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.278 seconds
+Domain Reload Profiling: 8854ms
+	BeginReloadAssembly (2846ms)
+		ExecutionOrderSort (3ms)
+		DisableScriptedObjects (149ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (1373ms)
+	RebuildCommonClasses (102ms)
+	RebuildNativeTypeToScriptingClass (53ms)
+	initialDomainReloadingComplete (118ms)
+	LoadAllAssembliesAndSetupDomain (3456ms)
+		LoadAssemblies (2876ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1212ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (14ms)
+			BuildScriptInfoCaches (926ms)
+			ResolveRequiredComponents (40ms)
+	FinalizeReload (2280ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1773ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (454ms)
+			ProcessInitializeOnLoadAttributes (957ms)
+			ProcessInitializeOnLoadMethodAttributes (256ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (10ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (43ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 39.89 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7776 unused Assets / (7.9 MB). Loaded Objects now: 8530.
+Memory consumption went from 161.1 MB to 153.2 MB.
+Total: 35.315500 ms (FindLiveObjects: 2.395600 ms CreateObjectMapping: 4.341200 ms MarkObjects: 16.470800 ms  DeleteObjects: 12.103000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  9.865 seconds
+Refreshing native plugins compatible for Editor in 66.88 ms, found 5 plugins.
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Interaction.Toolkit.Analytics.XRIAnalytics..cctor () [0x00000] in .\Library\PackageCache\com.unity.xr.interaction.toolkit@42ef3600567b\Editor\Analytics\XRIAnalytics.cs:32 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
+Assertion failure. Values are not equal.
+Expected: Failure == Success
+  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <0004165128be453398769144f78ad292>:0 
+  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
+  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
+SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
+System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
+System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
+
+(Filename: ./Library/PackageCache/com.unity.cloud.draco@4b657c9cdeaa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.180 seconds
+Domain Reload Profiling: 12032ms
+	BeginReloadAssembly (5748ms)
+		ExecutionOrderSort (5ms)
+		DisableScriptedObjects (1090ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (7ms)
+		CreateAndSetChildDomain (1905ms)
+	RebuildCommonClasses (133ms)
+	RebuildNativeTypeToScriptingClass (55ms)
+	initialDomainReloadingComplete (213ms)
+	LoadAllAssembliesAndSetupDomain (3701ms)
+		LoadAssemblies (3075ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1331ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1108ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (2182ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1617ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (19ms)
+			BeforeProcessingInitializeOnLoad (596ms)
+			ProcessInitializeOnLoadAttributes (702ms)
+			ProcessInitializeOnLoadMethodAttributes (219ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 16.42 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7776 unused Assets / (7.1 MB). Loaded Objects now: 8533.
+Memory consumption went from 162.9 MB to 155.9 MB.
+Total: 26.829000 ms (FindLiveObjects: 2.350300 ms CreateObjectMapping: 1.091400 ms MarkObjects: 14.730000 ms  DeleteObjects: 8.653000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 227.13 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 3.90 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (3.5 MB). Loaded Objects now: 8536.
+Memory consumption went from 159.0 MB to 155.5 MB.
+Total: 2318.126500 ms (FindLiveObjects: 16.796400 ms CreateObjectMapping: 3.770700 ms MarkObjects: 2282.326800 ms  DeleteObjects: 14.928500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 14.195 seconds
+Refreshing native plugins compatible for Editor in 64.42 ms, found 5 plugins.
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Interaction.Toolkit.Analytics.XRIAnalytics..cctor () [0x00000] in .\Library\PackageCache\com.unity.xr.interaction.toolkit@42ef3600567b\Editor\Analytics\XRIAnalytics.cs:32 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
+Assertion failure. Values are not equal.
+Expected: Failure == Success
+  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <0004165128be453398769144f78ad292>:0 
+  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
+  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
+SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
+System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
+System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
+
+(Filename: ./Library/PackageCache/com.unity.cloud.draco@4b657c9cdeaa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  5.013 seconds
+Domain Reload Profiling: 19293ms
+	BeginReloadAssembly (4242ms)
+		ExecutionOrderSort (2ms)
+		DisableScriptedObjects (848ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (9ms)
+		CreateAndSetChildDomain (1021ms)
+	RebuildCommonClasses (308ms)
+	RebuildNativeTypeToScriptingClass (73ms)
+	initialDomainReloadingComplete (424ms)
+	LoadAllAssembliesAndSetupDomain (9227ms)
+		LoadAssemblies (6011ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4237ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (3827ms)
+			ResolveRequiredComponents (81ms)
+	FinalizeReload (5019ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4024ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (116ms)
+			SetLoadedEditorAssemblies (38ms)
+			BeforeProcessingInitializeOnLoad (1085ms)
+			ProcessInitializeOnLoadAttributes (2148ms)
+			ProcessInitializeOnLoadMethodAttributes (606ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (74ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 56.99 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 2.02 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7776 unused Assets / (9.5 MB). Loaded Objects now: 8539.
+Memory consumption went from 159.5 MB to 150.0 MB.
+Total: 53.993100 ms (FindLiveObjects: 5.170500 ms CreateObjectMapping: 2.717500 ms MarkObjects: 26.675000 ms  DeleteObjects: 19.423700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 175.34 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.95 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (3.6 MB). Loaded Objects now: 8539.
+Memory consumption went from 155.7 MB to 152.1 MB.
+Total: 794.369900 ms (FindLiveObjects: 14.820300 ms CreateObjectMapping: 1.158600 ms MarkObjects: 766.734100 ms  DeleteObjects: 11.645200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 20.577 seconds
+Refreshing native plugins compatible for Editor in 62.23 ms, found 5 plugins.
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Interaction.Toolkit.Analytics.XRIAnalytics..cctor () [0x00000] in .\Library\PackageCache\com.unity.xr.interaction.toolkit@42ef3600567b\Editor\Analytics\XRIAnalytics.cs:32 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
+Assertion failure. Values are not equal.
+Expected: Failure == Success
+  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <0004165128be453398769144f78ad292>:0 
+  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
+  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
+SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
+System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
+System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
+
+(Filename: ./Library/PackageCache/com.unity.cloud.draco@4b657c9cdeaa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.642 seconds
+Domain Reload Profiling: 24693ms
+	BeginReloadAssembly (7976ms)
+		ExecutionOrderSort (4ms)
+		DisableScriptedObjects (616ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (21ms)
+		CreateAndSetChildDomain (3216ms)
+	RebuildCommonClasses (216ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (216ms)
+	LoadAllAssembliesAndSetupDomain (12597ms)
+		LoadAssemblies (9538ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4327ms)
+			TypeCache.Refresh (241ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (3890ms)
+			ResolveRequiredComponents (94ms)
+	FinalizeReload (3645ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2672ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (113ms)
+			SetLoadedEditorAssemblies (44ms)
+			BeforeProcessingInitializeOnLoad (579ms)
+			ProcessInitializeOnLoadAttributes (1508ms)
+			ProcessInitializeOnLoadMethodAttributes (405ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (43ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 52.61 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 6.14 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7776 unused Assets / (7.6 MB). Loaded Objects now: 8542.
+Memory consumption went from 162.9 MB to 155.3 MB.
+Total: 31.527200 ms (FindLiveObjects: 3.004100 ms CreateObjectMapping: 1.109200 ms MarkObjects: 13.317800 ms  DeleteObjects: 14.091800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 159.35 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.84 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (3.5 MB). Loaded Objects now: 8542.
+Memory consumption went from 159.1 MB to 155.6 MB.
+Total: 830.366200 ms (FindLiveObjects: 10.767200 ms CreateObjectMapping: 0.732200 ms MarkObjects: 811.463100 ms  DeleteObjects: 7.396700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 11.112 seconds
+Refreshing native plugins compatible for Editor in 460.51 ms, found 5 plugins.
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Interaction.Toolkit.Analytics.XRIAnalytics..cctor () [0x00000] in .\Library\PackageCache\com.unity.xr.interaction.toolkit@42ef3600567b\Editor\Analytics\XRIAnalytics.cs:32 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
+Assertion failure. Values are not equal.
+Expected: Failure == Success
+  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <0004165128be453398769144f78ad292>:0 
+  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
+  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
+SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
+System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
+System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
+
+(Filename: ./Library/PackageCache/com.unity.cloud.draco@4b657c9cdeaa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.579 seconds
+Domain Reload Profiling: 13695ms
+	BeginReloadAssembly (5206ms)
+		ExecutionOrderSort (2ms)
+		DisableScriptedObjects (458ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (9ms)
+		CreateAndSetChildDomain (2088ms)
+	RebuildCommonClasses (200ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (148ms)
+	LoadAllAssembliesAndSetupDomain (5530ms)
+		LoadAssemblies (4671ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1660ms)
+			TypeCache.Refresh (100ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1427ms)
+			ResolveRequiredComponents (101ms)
+	FinalizeReload (2580ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2032ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (155ms)
+			SetLoadedEditorAssemblies (29ms)
+			BeforeProcessingInitializeOnLoad (539ms)
+			ProcessInitializeOnLoadAttributes (1109ms)
+			ProcessInitializeOnLoadMethodAttributes (188ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 32.20 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 4.12 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7776 unused Assets / (5.7 MB). Loaded Objects now: 8545.
+Memory consumption went from 163.0 MB to 157.3 MB.
+Total: 84.313500 ms (FindLiveObjects: 6.129500 ms CreateObjectMapping: 3.991200 ms MarkObjects: 29.145400 ms  DeleteObjects: 43.163600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 140.54 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.94 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (3.5 MB). Loaded Objects now: 8545.
+Memory consumption went from 159.1 MB to 155.6 MB.
+Total: 862.200000 ms (FindLiveObjects: 11.100900 ms CreateObjectMapping: 1.002800 ms MarkObjects: 845.837200 ms  DeleteObjects: 4.252900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 11.324 seconds
+Refreshing native plugins compatible for Editor in 30.91 ms, found 5 plugins.
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Interaction.Toolkit.Analytics.XRIAnalytics..cctor () [0x00000] in .\Library\PackageCache\com.unity.xr.interaction.toolkit@42ef3600567b\Editor\Analytics\XRIAnalytics.cs:32 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
+Assertion failure. Values are not equal.
+Expected: Failure == Success
+  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <0004165128be453398769144f78ad292>:0 
+  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
+  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
+SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
+System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
+System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
+
+(Filename: ./Library/PackageCache/com.unity.cloud.draco@4b657c9cdeaa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.812 seconds
+Domain Reload Profiling: 14302ms
+	BeginReloadAssembly (5778ms)
+		ExecutionOrderSort (4ms)
+		DisableScriptedObjects (686ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (12ms)
+		CreateAndSetChildDomain (2305ms)
+	RebuildCommonClasses (113ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (184ms)
+	LoadAllAssembliesAndSetupDomain (5390ms)
+		LoadAssemblies (3846ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1967ms)
+			TypeCache.Refresh (107ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1734ms)
+			ResolveRequiredComponents (49ms)
+	FinalizeReload (2813ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2225ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (103ms)
+			SetLoadedEditorAssemblies (20ms)
+			BeforeProcessingInitializeOnLoad (367ms)
+			ProcessInitializeOnLoadAttributes (1364ms)
+			ProcessInitializeOnLoadMethodAttributes (356ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 31.00 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.92 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7776 unused Assets / (5.5 MB). Loaded Objects now: 8548.
+Memory consumption went from 166.5 MB to 161.1 MB.
+Total: 32.179700 ms (FindLiveObjects: 2.341700 ms CreateObjectMapping: 1.236100 ms MarkObjects: 17.523900 ms  DeleteObjects: 11.074400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 143.94 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.97 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (3.5 MB). Loaded Objects now: 8548.
+Memory consumption went from 162.5 MB to 159.1 MB.
+Total: 1025.160800 ms (FindLiveObjects: 9.120400 ms CreateObjectMapping: 0.828400 ms MarkObjects: 999.735100 ms  DeleteObjects: 15.203100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 12.681 seconds
+Refreshing native plugins compatible for Editor in 47.33 ms, found 5 plugins.
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Interaction.Toolkit.Analytics.XRIAnalytics..cctor () [0x00000] in .\Library\PackageCache\com.unity.xr.interaction.toolkit@42ef3600567b\Editor\Analytics\XRIAnalytics.cs:32 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
+Assertion failure. Values are not equal.
+Expected: Failure == Success
+  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <0004165128be453398769144f78ad292>:0 
+  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
+  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
+SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
+System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
+System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
+
+(Filename: ./Library/PackageCache/com.unity.cloud.draco@4b657c9cdeaa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.837 seconds
+Domain Reload Profiling: 15595ms
+	BeginReloadAssembly (6111ms)
+		ExecutionOrderSort (11ms)
+		DisableScriptedObjects (847ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (11ms)
+		CreateAndSetChildDomain (2293ms)
+	RebuildCommonClasses (135ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (163ms)
+	LoadAllAssembliesAndSetupDomain (6305ms)
+		LoadAssemblies (4713ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2338ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2035ms)
+			ResolveRequiredComponents (65ms)
+	FinalizeReload (2840ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2343ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (82ms)
+			SetLoadedEditorAssemblies (40ms)
+			BeforeProcessingInitializeOnLoad (604ms)
+			ProcessInitializeOnLoadAttributes (1231ms)
+			ProcessInitializeOnLoadMethodAttributes (363ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (54ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 42.19 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.03 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7776 unused Assets / (6.5 MB). Loaded Objects now: 8551.
+Memory consumption went from 169.9 MB to 163.5 MB.
+Total: 20.639000 ms (FindLiveObjects: 2.810000 ms CreateObjectMapping: 0.561300 ms MarkObjects: 11.764300 ms  DeleteObjects: 5.500400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 41.83 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.95 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (3.6 MB). Loaded Objects now: 8551.
+Memory consumption went from 166.2 MB to 162.6 MB.
+Total: 234.888100 ms (FindLiveObjects: 4.072100 ms CreateObjectMapping: 0.324600 ms MarkObjects: 226.393100 ms  DeleteObjects: 4.093200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  8.436 seconds
+Refreshing native plugins compatible for Editor in 28.78 ms, found 5 plugins.
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Interaction.Toolkit.Analytics.XRIAnalytics..cctor () [0x00000] in .\Library\PackageCache\com.unity.xr.interaction.toolkit@42ef3600567b\Editor\Analytics\XRIAnalytics.cs:32 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
+Assertion failure. Values are not equal.
+Expected: Failure == Success
+  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <0004165128be453398769144f78ad292>:0 
+  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
+  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
+SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
+System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
+System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
+
+(Filename: ./Library/PackageCache/com.unity.cloud.draco@4b657c9cdeaa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.364 seconds
+Domain Reload Profiling: 10829ms
+	BeginReloadAssembly (3050ms)
+		ExecutionOrderSort (4ms)
+		DisableScriptedObjects (243ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (847ms)
+	RebuildCommonClasses (151ms)
+	RebuildNativeTypeToScriptingClass (46ms)
+	initialDomainReloadingComplete (151ms)
+	LoadAllAssembliesAndSetupDomain (5065ms)
+		LoadAssemblies (4272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1655ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1427ms)
+			ResolveRequiredComponents (40ms)
+	FinalizeReload (2366ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1808ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (254ms)
+			SetLoadedEditorAssemblies (39ms)
+			BeforeProcessingInitializeOnLoad (471ms)
+			ProcessInitializeOnLoadAttributes (839ms)
+			ProcessInitializeOnLoadMethodAttributes (192ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 17.31 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.45 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7776 unused Assets / (6.4 MB). Loaded Objects now: 8554.
+Memory consumption went from 170.1 MB to 163.7 MB.
+Total: 21.531600 ms (FindLiveObjects: 1.915900 ms CreateObjectMapping: 0.748300 ms MarkObjects: 11.370800 ms  DeleteObjects: 7.492000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 55.70 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.48 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (3.4 MB). Loaded Objects now: 8554.
+Memory consumption went from 166.0 MB to 162.6 MB.
+Total: 361.528800 ms (FindLiveObjects: 3.664700 ms CreateObjectMapping: 0.311100 ms MarkObjects: 354.361400 ms  DeleteObjects: 3.187200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 11.075 seconds
+Refreshing native plugins compatible for Editor in 106.44 ms, found 5 plugins.
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.1.15f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Interaction.Toolkit.Analytics.XRIAnalytics..cctor () [0x00000] in .\Library\PackageCache\com.unity.xr.interaction.toolkit@42ef3600567b\Editor\Analytics\XRIAnalytics.cs:32 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+AssertionException: Error removing Draco for Unity WebGL sub-packages.. Failed fetching installed packages.
+Assertion failure. Values are not equal.
+Expected: Failure == Success
+  at UnityEngine.Assertions.Assert.Fail (System.String message, System.String userMessage) [0x00043] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0005f] in <0004165128be453398769144f78ad292>:0 
+  at UnityEngine.Assertions.Assert.AreEqual[T] (T expected, T actual, System.String message) [0x00009] in <0004165128be453398769144f78ad292>:0 
+  at SubPackage.SubPackageRemover.GetAllInstalledPackagesAsync (System.Double timeout) [0x000b7] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:79 
+  at SubPackage.SubPackageRemover.TryRemoveObsoleteSubPackagesAsync () [0x0002a] in .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:33 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+SubPackage.<TryRemoveObsoleteSubPackagesAsync>d__5:MoveNext() (at .\Library\PackageCache\com.unity.cloud.draco@4b657c9cdeaa\Editor\Scripts\SubPackage\SubPackageRemover.cs:50)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start(<TryRemoveObsoleteSubPackagesAsync>d__5&)
+SubPackage.SubPackageRemover:TryRemoveObsoleteSubPackagesAsync()
+System.Reflection.RuntimeMethodInfo:InternalInvoke(RuntimeMethodInfo, Object, Object[], Exception&)
+System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes()
+
+(Filename: ./Library/PackageCache/com.unity.cloud.draco@4b657c9cdeaa/Editor/Scripts/SubPackage/SubPackageRemover.cs Line: 50)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.905 seconds
+Domain Reload Profiling: 14028ms
+	BeginReloadAssembly (4490ms)
+		ExecutionOrderSort (3ms)
+		DisableScriptedObjects (386ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (8ms)
+		CreateAndSetChildDomain (2158ms)
+	RebuildCommonClasses (167ms)
+	RebuildNativeTypeToScriptingClass (46ms)
+	initialDomainReloadingComplete (169ms)
+	LoadAllAssembliesAndSetupDomain (6249ms)
+		LoadAssemblies (4651ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2413ms)
+			TypeCache.Refresh (107ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2186ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (2907ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2322ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (84ms)
+			SetLoadedEditorAssemblies (33ms)
+			BeforeProcessingInitializeOnLoad (453ms)
+			ProcessInitializeOnLoadAttributes (1300ms)
+			ProcessInitializeOnLoadMethodAttributes (433ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (6ms)
+		ExecutionOrderSort2 (1ms)
+		AwakeInstancesAfterBackupRestoration (90ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 36.38 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 3.88 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7776 unused Assets / (5.5 MB). Loaded Objects now: 8557.
+Memory consumption went from 173.5 MB to 168.0 MB.
+Total: 100.339900 ms (FindLiveObjects: 5.972500 ms CreateObjectMapping: 2.312400 ms MarkObjects: 59.932700 ms  DeleteObjects: 32.115700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 304.80 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.87 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (3.5 MB). Loaded Objects now: 8557.
+Memory consumption went from 169.6 MB to 166.1 MB.
+Total: 1644.828600 ms (FindLiveObjects: 13.874300 ms CreateObjectMapping: 0.687000 ms MarkObjects: 1620.786200 ms  DeleteObjects: 9.473100 ms)
+
+Prepare: number of updated asset objects reloaded= 0

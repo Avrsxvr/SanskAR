@@ -6,7 +6,7 @@ https://github.com/user-attachments/assets/850d525f-9f23-40e5-ba4a-3e96a5950217
 
 Overview
 
-SanskritAR is a mobile augmented reality application designed for interactive exploration of cultural heritage content. The app uses real-world placement and immersive storytelling to enhance learning and engagement.
+SanskAR is a mobile augmented reality application designed for interactive exploration of cultural heritage content. The app uses real-world placement and immersive storytelling to enhance learning and engagement.
 
 Features
  1. Real-world object placement using AR Foundation
